@@ -17,13 +17,13 @@ import static org.mockito.Mockito.when;
 public class ShopControllerTest {
 
     @Mock
-    private ShopRepository shopRepository;
+    public ShopRepository shopRepository;
 
     @Mock
-    private MusicPlayer musicPlayer;
+    public MusicPlayer musicPlayer;
 
-    private ShopController shopController;
-    private Shop shop;
+    public ShopController shopController;
+    public Shop shop;
 
     @Before
     public void init() {
